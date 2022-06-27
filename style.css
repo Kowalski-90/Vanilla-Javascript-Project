@@ -118,6 +118,7 @@ select {
     color: #484fb1;
     width: 10rem;
     cursor: pointer;
+    padding: 1.2rem;
 }
 
 .select::after {
@@ -129,4 +130,9 @@ select {
     cursor: pointer;
     padding: 1rem;
     pointer-events: none;
+}
+
+.select:hover::after {
+    background: white;
+    color: #2b4a57;
 }
